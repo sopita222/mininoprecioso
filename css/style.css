@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,900&display=swap');
+*{
+    font-family: 'Poppins',cursive;
+}
+body{
+    color: azure;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+.greetings{
+    font-size: 6rem;
+    font-weight: 600;
+}
+.greetings > span{
+    animation: glow 1.5s both infinite;
+}
+@keyframes glow{
+    0%, 100%{
+        color: #fff;
+        text-shadow: 0 0 12px #e983fd, 0 0 50px #e983fd, 0 0 100px #e983fd;
+    }
+    10%, 90%{
+        color: #111;
+        text-shadow: none;
+    }
+}
+.greetings > span:nth-child(1){
+    animation-delay: .7s ;
+}
+.greetings > span:nth-child(2){
+    animation-delay: .7s ;
+}
+.greetings > span:nth-child(3){
+    animation-delay: .7s ;
+}
+.greetings > span:nth-child(4){
+    animation-delay: .7s;
+}
+.greetings > span:nth-child(5){
+    animation-delay: .7s;
+}
+.greetings > span:nth-child(6){
+    animation-delay: .7s ;
+}
+.greetings > span:nth-child(7){
+    animation-delay: .7s ;
+}
+.greetings > span:nth-child(8){
+    animation-delay: .7s ;
+}
+.greetings > span:nth-child(9){
+    animation-delay: .7s ;
+}
+.greetings > span:nth-child(10){
+    animation-delay: .7s ;
+}
+.greetings > span:nth-child(11){
+    animation-delay: .7s ;
+}
+.greetings > span:nth-child(12){
+    animation-delay: .7s ;
+}
+.greetings > span:nth-child(13){
+    animation-delay: .7s ;
+}
+.greetings > span:nth-child(14){
+    animation-delay: .7s ;
+}
+.greetings > span:nth-child(15){
+    animation-delay: .7s ;
+}
+.greetings > span:nth-child(16){
+    animation-delay: .7s ;
+}
+.greetings > span:nth-child(17){
+    animation-delay: .7s ;
+}
+.greetings > span:nth-child(18){
+    animation-delay: .7s ;
+}
+.greetings > span:nth-child(19){
+    animation-delay: .7s ;
+}
+.greetings > span:nth-child(20){
+    animation-delay: .7s ;
+}
+.greetings > span:nth-child(21){
+    animation-delay: .7s ;
+}
+.greetings > span:nth-child(22){
+    animation-delay: .7s ;
+}
+.greetings > span:nth-child(23){
+    animation-delay: .7s ;
+}
+.greetings > span:nth-child(24){
+    animation-delay: .7s ;
+}
+.greetings > span:nth-child(25){
+    animation-delay: .7s ;
+}
+.greetings > span:nth-child(26){
+    animation-delay: .7s ;
+}
+.greetings > span:nth-child(27){
+    animation-delay: .7s ;
+}
+.greetings > span:nth-child(28){
+    animation-delay: .7s ;
+}
+.greetings > span:nth-child(29){
+    animation-delay: .7s ;
+}
+.description{
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.custom-button { 
+    display: block;
+    margin: 0 auto;
+    padding: 0.5em 1em;
+    font-size: 1em;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 25px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    animation: fadeIn 2s ease-in-out;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.custom-button a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.custom-button:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.custom-button:active {
+    transform: scale(0.95);
+}
+
+
+@media screen and (max-width:574px){
+    .greetings{
+        display: block;
+        font-size: 1.8rem;
+        font-weight: 600;
+        text-align: center;
+    }
+    .description{
+        font-size: 5px;
+    }
+    
+    .button a{
+        font-size: 10px;
+    }
+    
+}
